@@ -2968,6 +2968,7 @@
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
+      overflow: auto;
 		}
 
 		.spotlight .goto-next {
