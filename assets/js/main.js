@@ -58,10 +58,10 @@
 
 			// Title Bar.
 				$(
-					'<div id="titleBar">' +
-						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
-					'</div>'
+					// '<div id="titleBar">' +
+					// 	'<a href="#navPanel" class="toggle"></a>' +
+					// 	'<span class="title">' + $('#logo').html() + '</span>' +
+					// '</div>'
 				)
 					.appendTo($body);
 
@@ -92,8 +92,7 @@
 
 		// Parallax.
 		// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
-			if (skel.vars.browser == 'ie'
-			||	skel.vars.mobile) {
+			if (skel.vars.browser == 'ie' ||	skel.vars.mobile) {
 
 				$.fn._parallax = function() {
 
